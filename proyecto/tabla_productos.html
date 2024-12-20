@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos_Clientes</title>
+    <link href="./tabla_productos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Té<span>.</span></a>
+
+        <nav class="navbar">
+            <a href="/login/loginp.html">login</a>
+        </nav>
+
+    </header>
+    <div id="main-container">
+    <table class="table">
+        <thead>
+            <tr>
+            <th scope="col">#</th>
+            <th scope="col">Producto</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Cantidad</th>
+            <th scope="col">Total</th>
+            <th scope="col">x</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <th scope="row">1</th>
+            <td>Té Green Hills</td>
+            <td>1200</td>
+            <td>
+                <button class="boton-des">-</button>
+                <p><span class="valor">1</span></p>
+                <button class="boton-inc">+</button>
+            </td>
+            <td></td> 
+            <td>
+                <button type="button" class="btn-close" aria-label="Close">x</button>
+            </td> 
+            <script>
+                const valoresActuales = document.querySelectorAll('.valor');
+                const botonesDecremento = document.querySelectorAll('.boton-des');
+                const botonesIncremento = document.querySelectorAll('.boton-inc');
+            
+                for (let i = 0; i < valoresActuales1.length; i++) {
+                const valorActual = valoresActuales1[i];
+                const botonDecremento1 = botonesDecremento1[i];
+                const botonIncremento1 = botonesIncremento1[i];
+                let contador = 1;
+            
+                botonDecremento1.addEventListener('click', () => {
+                    if (contador > 1) {
+                    contador--;
+                    valorActual.textContent = contador;
+                    } else {
+                    alert('El valor mínimo es 1');
+                    }
+                });
+            
+                botonIncremento1.addEventListener('click', () => {
+                    if (contador < 20) {
+                    contador++;
+                    valorActual.textContent = contador;
+                    } else {
+                    alert('El valor máximo es 20');
+                    }
+                });
+                }
+            </script>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Té La Virginia</td>
+            <td>1700</td>
+            <td>
+                <button class="boton-des">-</button>
+                <p><span class="valor">1</span></p>
+                <button class="boton-inc">+</button></td>
+            <td></td>
+            <td>
+                <button type="button" class="btn-close" aria-label="Close">x</button>
+            </td> 
+            <script>
+                const valoresActuales1 = document.querySelectorAll('.valor');
+                const botonesDecremento1 = document.querySelectorAll('.boton-des');
+                const botonesIncremento1 = document.querySelectorAll('.boton-inc');
+            
+                for (let i = 0; i < valoresActuales1.length; i++) {
+                const valorActual = valoresActuales1[i];
+                const botonDecremento1 = botonesDecremento1[i];
+                const botonIncremento1 = botonesIncremento1[i];
+                let contador = 1;
+            
+                botonDecremento1.addEventListener('click', () => {
+                    if (contador > 1) {
+                    contador--;
+                    valorActual.textContent = contador;
+                    } else {
+                    alert('El valor mínimo es 1');
+                    }
+                });
+            
+                botonIncremento1.addEventListener('click', () => {
+                    if (contador < 20) {
+                    contador++;
+                    valorActual.textContent = contador;
+                    } else {
+                    alert('El valor máximo es 20');
+                    }
+                });
+                }
+            </script>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>Té Taragui</td>
+            <td>2300</td>
+            <td>
+                <button class="boton-des">-</button>
+                <p><span class="valor">1</span></p>
+                <button class="boton-inc">+</button>
+            </td>
+            <td></td>
+            <td>
+                <button type="button" class="btn-close" aria-label="Close">x</button>
+            </td> 
+            <script>
+                const valoresActuales3 = document.querySelectorAll('.valor');
+                const botonesDecremento3 = document.querySelectorAll('.boton-des');
+                const botonesIncrement3o = document.querySelectorAll('.boton-inc');
+            
+                for (let i = 0; i < valoresActuales3.length; i++) {
+                const valorActual = valoresActuales3[i];
+                const botonDecremento = botonesDecremento3[i];
+                const botonIncremento = botonesIncremento3[i];
+                let contador = 1;
+            
+                botonDecremento.addEventListener('click', () => {
+                    if (contador > 1) {
+                    contador--;
+                    valorActual.textContent = contador;
+                    } else {
+                    alert('El valor mínimo es 1');
+                    }
+                });
+            
+                botonIncremento.addEventListener('click', () => {
+                    if (contador < 20) {
+                    contador++;
+                    valorActual.textContent = contador;
+                    } else {
+                    alert('El valor máximo es 20');
+                    }
+                });
+                }
+            </script>
+        </tr>
+        <tr>
+            <th scope="row">4</th>
+            <td >Matecocido La Tranquera</td>
+            <td id="precio4" type="number">930</td>
+            <td>
+                <button class="boton-des">-</button>
+                <p><span class="valor">1</span></p>
+                <button class="boton-inc">+</button>
+            </td>
+            <td ></td>
+            <td>
+                <button type="button" class="btn-close" aria-label="Close">x</button>
+            </td> 
+            <script>
+                const valoresActuales4 = document.querySelectorAll('.valor');
+                const botonesDecremento4 = document.querySelectorAll('.boton-des');
+                const botonesIncremento4 = document.querySelectorAll('.boton-inc');
+            
+                for (let i = 0; i < valoresActuales4.length; i++) {
+                const valorActual = valoresActuales4[i];
+                const botonDecremento = botonesDecremento4[i];
+                const botonIncremento = botonesIncremento4[i];
+                let contador = 1;
+            
+                botonDecremento.addEventListener('click', () => {
+                    if (contador > 1) {
+                    contador--;
+                    valorActual.textContent = contador;
+                    } else {
+                    alert('El valor mínimo es 1');
+                    }
+                });
+            
+                botonIncremento.addEventListener('click', () => {
+                    if (contador < 20) {
+                    contador++;
+                    valorActual.textContent = contador;
+                    } else {
+                    alert('El valor máximo es 20');
+                    }
+                });
+                }
+            </script>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+</body>
+</html>

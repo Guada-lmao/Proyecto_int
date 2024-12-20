@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+header .logo{
+    font-size: 3rem;
+    color: #333;
+    font-weight: bolder;
+}
+header .logo span{
+    color: #d8968f ;
+}
+header .navbar a{
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: black;
+}
+header .navbar:hover{
+    color: #d6ad9b;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #51572c;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+body{
+    box-sizing: border-box;
+    background-color: #CAD19F;
+}
+
+#main-container{
+    margin: 200px auto;
+    width: 800px;
+}
+table{
+    width: 100%;
+    background-color: #d8968f;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: solid 2px black;
+    padding: 30px;
+    font-size: 18px;
+}
+
+thead{
+    background-color: #f8d0c8;
+    border-bottom: solid 5px;
+    color: black;
+}
+
+tr:nth-child(even){
+    background-color: #d6ad9b;
+}
+
+.btn-close{
+    background-color: #f8d0c8;
+    padding: 15px 30px;
+    font-size: 18px;
+}

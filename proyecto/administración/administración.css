@@ -1,0 +1,61 @@
+body{
+    box-sizing: border-box;
+    background-color: #f8d0c8;  
+}
+header{
+    box-shadow: #333;
+    background-color: #F3BABA;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+}
+header .titulo{
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.dropdown button{
+    background-color: #A7B59E;
+    color: #fff;
+    width: 60%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.dropdown a{
+    width: 60%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: block;
+    color: black;
+    background-color: #CAD19F;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ccc;
+}
+.dropdown .content{
+    width: 60%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: #CAD19F;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px grey;
+    display: none;
+}
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown:hover button{
+    background-color: #799567;
+}
+.dropdown a:hover{
+    background-color: #C6F4D6;
+}
+.admin{
+    width: 150px;
+    height: 100px;
+}
